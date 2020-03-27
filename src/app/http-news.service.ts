@@ -7,7 +7,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 })
 export class HttpNewsService {
 
-  apiKey:string = "77da93c588ff4e648ef8cad27ddc6cbc";
+  apiKey:string = "Your-Api-Key";
   url:string = "http://newsapi.org/v2/top-headlines?country=us"
 
   constructor(private http:HttpClient) { }
